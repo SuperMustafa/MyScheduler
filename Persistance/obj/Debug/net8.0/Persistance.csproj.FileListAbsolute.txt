@@ -1,0 +1,15 @@
+E:\asp.net\Scheduler\Palm\Persistance\bin\Debug\net8.0\Persistance.deps.json
+E:\asp.net\Scheduler\Palm\Persistance\bin\Debug\net8.0\Persistance.dll
+E:\asp.net\Scheduler\Palm\Persistance\bin\Debug\net8.0\Persistance.pdb
+E:\asp.net\Scheduler\Palm\Persistance\bin\Debug\net8.0\Domain.dll
+E:\asp.net\Scheduler\Palm\Persistance\bin\Debug\net8.0\Domain.pdb
+E:\asp.net\Scheduler\Palm\Persistance\obj\Debug\net8.0\Persistance.csproj.AssemblyReference.cache
+E:\asp.net\Scheduler\Palm\Persistance\obj\Debug\net8.0\Persistance.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net\Scheduler\Palm\Persistance\obj\Debug\net8.0\Persistance.AssemblyInfoInputs.cache
+E:\asp.net\Scheduler\Palm\Persistance\obj\Debug\net8.0\Persistance.AssemblyInfo.cs
+E:\asp.net\Scheduler\Palm\Persistance\obj\Debug\net8.0\Persistance.csproj.CoreCompileInputs.cache
+E:\asp.net\Scheduler\Palm\Persistance\obj\Debug\net8.0\Persista.3F568332.Up2Date
+E:\asp.net\Scheduler\Palm\Persistance\obj\Debug\net8.0\Persistance.dll
+E:\asp.net\Scheduler\Palm\Persistance\obj\Debug\net8.0\refint\Persistance.dll
+E:\asp.net\Scheduler\Palm\Persistance\obj\Debug\net8.0\Persistance.pdb
+E:\asp.net\Scheduler\Palm\Persistance\obj\Debug\net8.0\ref\Persistance.dll

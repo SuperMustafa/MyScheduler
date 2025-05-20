@@ -1,0 +1,17 @@
+E:\asp.net\Scheduler\Palm\Services\bin\Debug\net8.0\Services.deps.json
+E:\asp.net\Scheduler\Palm\Services\bin\Debug\net8.0\Services.dll
+E:\asp.net\Scheduler\Palm\Services\bin\Debug\net8.0\Services.pdb
+E:\asp.net\Scheduler\Palm\Services\bin\Debug\net8.0\Domain.dll
+E:\asp.net\Scheduler\Palm\Services\bin\Debug\net8.0\Persistance.dll
+E:\asp.net\Scheduler\Palm\Services\bin\Debug\net8.0\Domain.pdb
+E:\asp.net\Scheduler\Palm\Services\bin\Debug\net8.0\Persistance.pdb
+E:\asp.net\Scheduler\Palm\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+E:\asp.net\Scheduler\Palm\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net\Scheduler\Palm\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+E:\asp.net\Scheduler\Palm\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+E:\asp.net\Scheduler\Palm\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+E:\asp.net\Scheduler\Palm\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+E:\asp.net\Scheduler\Palm\Services\obj\Debug\net8.0\Services.dll
+E:\asp.net\Scheduler\Palm\Services\obj\Debug\net8.0\refint\Services.dll
+E:\asp.net\Scheduler\Palm\Services\obj\Debug\net8.0\Services.pdb
+E:\asp.net\Scheduler\Palm\Services\obj\Debug\net8.0\ref\Services.dll

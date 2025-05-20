@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\asp.net\\Scheduler\\Palm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F73FB35D-51D0-4EFD-AB76-75D5C6E402FE}|Services\\Services.csproj|e:\\asp.net\\scheduler\\palm\\services\\executorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73FB35D-51D0-4EFD-AB76-75D5C6E402FE}|Services\\Services.csproj|solutionrelative:services\\executorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73FB35D-51D0-4EFD-AB76-75D5C6E402FE}|Services\\Services.csproj|e:\\asp.net\\scheduler\\palm\\services\\scheduleexecutionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73FB35D-51D0-4EFD-AB76-75D5C6E402FE}|Services\\Services.csproj|solutionrelative:services\\scheduleexecutionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A01F200-0399-4146-82C6-40FC0EAD6BD5}|Domain\\Domain.csproj|e:\\asp.net\\scheduler\\palm\\domain\\models\\devicesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A01F200-0399-4146-82C6-40FC0EAD6BD5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\devicesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A01F200-0399-4146-82C6-40FC0EAD6BD5}|Domain\\Domain.csproj|e:\\asp.net\\scheduler\\palm\\domain\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A01F200-0399-4146-82C6-40FC0EAD6BD5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\asp.net\\Scheduler\\Palm\\Persistance\\Migrations\\20250520120331_Initial_Create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Persistance\\Migrations\\20250520120331_Initial_Create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73FB35D-51D0-4EFD-AB76-75D5C6E402FE}|Services\\Services.csproj|e:\\asp.net\\scheduler\\palm\\services\\iexecutorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73FB35D-51D0-4EFD-AB76-75D5C6E402FE}|Services\\Services.csproj|solutionrelative:services\\iexecutorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1988C3AD-F38C-49F0-97D0-132BAE7EF07B}|Palm\\Palm.csproj|e:\\asp.net\\scheduler\\palm\\palm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1988C3AD-F38C-49F0-97D0-132BAE7EF07B}|Palm\\Palm.csproj|solutionrelative:palm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\asp.net\\Scheduler\\Palm\\Palm\\Program.cs",
+              "RelativeDocumentMoniker": "Palm\\Program.cs",
+              "ToolTip": "E:\\asp.net\\Scheduler\\Palm\\Palm\\Program.cs",
+              "RelativeToolTip": "Palm\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAASwB8AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:02:44.022Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250520120331_Initial_Create.cs",
+              "DocumentMoniker": "E:\\asp.net\\Scheduler\\Palm\\Persistance\\Migrations\\20250520120331_Initial_Create.cs",
+              "RelativeDocumentMoniker": "Persistance\\Migrations\\20250520120331_Initial_Create.cs",
+              "ToolTip": "E:\\asp.net\\Scheduler\\Palm\\Persistance\\Migrations\\20250520120331_Initial_Create.cs",
+              "RelativeToolTip": "Persistance\\Migrations\\20250520120331_Initial_Create.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:03:32.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeviceSetting.cs",
+              "DocumentMoniker": "E:\\asp.net\\Scheduler\\Palm\\Domain\\Models\\DeviceSetting.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\DeviceSetting.cs",
+              "ToolTip": "E:\\asp.net\\Scheduler\\Palm\\Domain\\Models\\DeviceSetting.cs",
+              "RelativeToolTip": "Domain\\Models\\DeviceSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:38:15.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "E:\\asp.net\\Scheduler\\Palm\\Domain\\Models\\Schedule.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Schedule.cs",
+              "ToolTip": "E:\\asp.net\\Scheduler\\Palm\\Domain\\Models\\Schedule.cs",
+              "RelativeToolTip": "Domain\\Models\\Schedule.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:35:43.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExecutorService.cs",
+              "DocumentMoniker": "E:\\asp.net\\Scheduler\\Palm\\Services\\ExecutorService.cs",
+              "RelativeDocumentMoniker": "Services\\ExecutorService.cs",
+              "ToolTip": "E:\\asp.net\\Scheduler\\Palm\\Services\\ExecutorService.cs",
+              "RelativeToolTip": "Services\\ExecutorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:28:14.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScheduleExecutionService.cs",
+              "DocumentMoniker": "E:\\asp.net\\Scheduler\\Palm\\Services\\ScheduleExecutionService.cs",
+              "RelativeDocumentMoniker": "Services\\ScheduleExecutionService.cs",
+              "ToolTip": "E:\\asp.net\\Scheduler\\Palm\\Services\\ScheduleExecutionService.cs",
+              "RelativeToolTip": "Services\\ScheduleExecutionService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAFQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:06:10.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IExecutorService.cs",
+              "DocumentMoniker": "E:\\asp.net\\Scheduler\\Palm\\Services\\IExecutorService.cs",
+              "RelativeDocumentMoniker": "Services\\IExecutorService.cs",
+              "ToolTip": "E:\\asp.net\\Scheduler\\Palm\\Services\\IExecutorService.cs",
+              "RelativeToolTip": "Services\\IExecutorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:07:35.087Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
