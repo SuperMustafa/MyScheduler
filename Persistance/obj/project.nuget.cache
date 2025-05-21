@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UUdUvunTx8U=",
+  "dgSpecHash": "BWrdPytxdKE=",
   "success": true,
-  "projectFilePath": "E:\\asp.net\\Scheduler\\Palm\\Persistance\\Persistance.csproj",
+  "projectFilePath": "D:\\MyScheduler\\Persistance\\Persistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ascom\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ascom\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

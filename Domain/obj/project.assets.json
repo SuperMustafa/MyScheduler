@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\asp.net\\Scheduler\\Palm\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\MyScheduler\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "E:\\asp.net\\Scheduler\\Palm\\Domain\\Domain.csproj",
+      "projectPath": "D:\\MyScheduler\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\ascom\\.nuget\\packages\\",
-      "outputPath": "E:\\asp.net\\Scheduler\\Palm\\Domain\\obj\\",
+      "outputPath": "D:\\MyScheduler\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

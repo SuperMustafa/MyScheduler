@@ -3936,11 +3936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\asp.net\\Scheduler\\Palm\\Services\\Services.csproj",
+      "projectUniqueName": "D:\\MyScheduler\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "E:\\asp.net\\Scheduler\\Palm\\Services\\Services.csproj",
+      "projectPath": "D:\\MyScheduler\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\ascom\\.nuget\\packages\\",
-      "outputPath": "E:\\asp.net\\Scheduler\\Palm\\Services\\obj\\",
+      "outputPath": "D:\\MyScheduler\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3961,11 +3961,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\asp.net\\Scheduler\\Palm\\Domain\\Domain.csproj": {
-              "projectPath": "E:\\asp.net\\Scheduler\\Palm\\Domain\\Domain.csproj"
+            "D:\\MyScheduler\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\MyScheduler\\Domain\\Domain.csproj"
             },
-            "E:\\asp.net\\Scheduler\\Palm\\Persistance\\Persistance.csproj": {
-              "projectPath": "E:\\asp.net\\Scheduler\\Palm\\Persistance\\Persistance.csproj"
+            "D:\\MyScheduler\\Persistance\\Persistance.csproj": {
+              "projectPath": "D:\\MyScheduler\\Persistance\\Persistance.csproj"
             }
           }
         }

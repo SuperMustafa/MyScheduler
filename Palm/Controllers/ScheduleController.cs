@@ -35,6 +35,20 @@
         }
 
 
+        [HttpGet("by-customer/{customerId}")]
+        public async Task<IActionResult> GetByCustomerId(string customerId)
+        {
+            var schedules = await _service.GetSchedulesByCustomerIdAsync(customerId);
+            return Ok(schedules);
+        }
+
+        [HttpGet("by-tenant/{tenantId}")]
+        public async Task<IActionResult> GetByTenantId(string tenantId)
+        {
+            var schedules = await _service.GetSchedulesByTenantIdAsync(tenantId);
+            return Ok(schedules);
+        }
+
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)

@@ -76,7 +76,7 @@ namespace Services
 
         public async Task<Schedule> CreateAsync(schedualeDto dto)
         {
-            var schedule = new Schedule(dto.Name, dto.Description, dto.Active, dto.Time, dto.Building, dto.TimeZone, dto.Days);
+            var schedule = new Schedule( dto.TenantId, dto.CustomerId, dto.Name, dto.Description, dto.Active, dto.Time, dto.Building, dto.TimeZone, dto.Days);
             await _scheduleRepository.AddAsync(schedule); 
 
             foreach (var settingDto in dto.Settings ?? new List<DeviceSettingDto>())
@@ -125,7 +125,15 @@ namespace Services
 
             return schedule;
         }
+        public async Task<List<Schedule>> GetSchedulesByCustomerIdAsync(string customerId)
+        {
+            return await _scheduleRepository.GetSchedulesByCustomerIdAsync(customerId);
+        }
 
+        public async Task<List<Schedule>> GetSchedulesByTenantIdAsync(string tenantId)
+        {
+            return await _scheduleRepository.GetSchedulesByTenantIdAsync(tenantId);
+        }
         public async Task<bool> DeleteAsync(int id)
         {
             var schedule = await _scheduleRepository.GetByIdAsync(id);

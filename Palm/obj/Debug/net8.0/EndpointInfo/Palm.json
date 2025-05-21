@@ -152,6 +152,50 @@
           }
         }
       }
+    },
+    "/api/Schedule/by-customer/{customerId}": {
+      "get": {
+        "tags": [
+          "Schedule"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Schedule/by-tenant/{tenantId}": {
+      "get": {
+        "tags": [
+          "Schedule"
+        ],
+        "parameters": [
+          {
+            "name": "tenantId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -255,6 +299,14 @@
             "type": "integer",
             "format": "int32"
           },
+          "tenantId": {
+            "type": "string",
+            "nullable": true
+          },
+          "customerId": {
+            "type": "string",
+            "nullable": true
+          },
           "name": {
             "type": "string",
             "nullable": true
@@ -298,6 +350,14 @@
       "schedualeDto": {
         "type": "object",
         "properties": {
+          "tenantId": {
+            "type": "string",
+            "nullable": true
+          },
+          "customerId": {
+            "type": "string",
+            "nullable": true
+          },
           "name": {
             "type": "string",
             "nullable": true

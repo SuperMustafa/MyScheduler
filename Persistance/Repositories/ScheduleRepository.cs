@@ -45,6 +45,24 @@ namespace Persistance.Repositories
             _context.SaveChanges();
         }
 
+        public async Task<List<Schedule>> GetSchedulesByCustomerIdAsync(string customerId)
+        {
+            return await _context.Schedules
+                  .Include(s => s.DeviceSettings)
+                  .ThenInclude(ds => ds.Attributes)
+                  .Where(s => s.CustomerId == customerId)
+                  .ToListAsync();
+        }
+
+        public async Task<List<Schedule>> GetSchedulesByTenantIdAsync(string tenantId)
+        {
+            return await _context.Schedules
+          .Include(s => s.DeviceSettings)
+          .ThenInclude(ds => ds.Attributes)
+          .Where(s => s.TenantId == tenantId)
+          .ToListAsync();
+        }
+
 
         public async Task<bool> DeleteAsync(int id)
         {

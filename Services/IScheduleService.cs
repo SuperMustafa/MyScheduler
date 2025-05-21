@@ -13,6 +13,8 @@ namespace Services
         Task<IEnumerable<schedualeDto>> GetAllAsync();
         Task<schedualeDto?> GetByIdAsync(int id);
         Task<Schedule> CreateAsync(schedualeDto schedule);
+        Task<List<Schedule>> GetSchedulesByCustomerIdAsync(string customerId);
+        Task<List<Schedule>> GetSchedulesByTenantIdAsync(string tenantId);
         Task<bool> DeleteAsync(int id);
     }
 }

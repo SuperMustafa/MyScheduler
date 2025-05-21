@@ -86,5 +86,37 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Palm.Controllers.ScheduleController",
+    "Method": "GetByCustomerId",
+    "RelativePath": "api/Schedule/by-customer/{customerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Palm.Controllers.ScheduleController",
+    "Method": "GetByTenantId",
+    "RelativePath": "api/Schedule/by-tenant/{tenantId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tenantId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

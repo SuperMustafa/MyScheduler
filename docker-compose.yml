@@ -1,0 +1,6 @@
+services:
+  palm:
+    image: ${DOCKER_REGISTRY-}palm
+    build:
+      context: .
+      dockerfile: Palm/Dockerfile
