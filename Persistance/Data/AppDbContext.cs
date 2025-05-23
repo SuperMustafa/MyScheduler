@@ -17,6 +17,7 @@ namespace Persistance.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
             // Configure Schedule
             modelBuilder.Entity<Schedule>()
                 .HasKey(s => s.Id);

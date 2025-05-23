@@ -26,6 +26,8 @@ namespace Services
             var schedules = await _scheduleRepository.GetAllAsync();
             return schedules.Select(s => new schedualeDto
             {
+                TenantId = s.TenantId,
+                CustomerId= s.CustomerId,
                 Name = s.Name,
                 Description = s.Description,
                 Active = s.Active,
@@ -53,6 +55,8 @@ namespace Services
 
             return new schedualeDto
             {
+                TenantId = s.TenantId,
+                CustomerId = s.CustomerId,
                 Name = s.Name,
                 Description = s.Description,
                 Active = s.Active,
