@@ -1,8 +1,8 @@
-version: '3.8'
-
 services:
-  api:
-    build: .
+  palm:
+    build:
+      context: .
+      dockerfile: Palm/Dockerfile
     ports:
       - "5000:80"
     depends_on:
@@ -10,36 +10,50 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://+:80
-      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=Scheduler_db;User Id=myUser;Password=mustafa@1031998;TrustServerCertificate=True;
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=Scheduler_db;User Id=mu_user;Password=inseejam@123;TrustServerCertificate=True;
     networks:
       - backend
 
   sqlserver:
-    image: mcr.microsoft.com/mssql/server:2022-latest
+    image: mcr.microsoft.com/mssql/server:2019-latest
     container_name: sqlserver
     environment:
-      SA_PASSWORD: "Your_password123"
+      SA_PASSWORD: "mustafa@1031998"
       ACCEPT_EULA: "Y"
     ports:
       - "1433:1433"
-    volumes:
-      - sqlvolume:/var/opt/mssql
-    command: >
-      /bin/bash -c "
-      /opt/mssql/bin/sqlservr & 
-      sleep 20 &&
-      /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Your_password123 -Q \"
-        CREATE DATABASE Scheduler_db;
-        CREATE LOGIN myUser WITH PASSWORD = 'mustafa@1031998', CHECK_POLICY = OFF;
-        USE Scheduler_db;
-        CREATE USER myUser FOR LOGIN myUser;
-        ALTER ROLE db_owner ADD MEMBER myUser;\" 
-      && tail -f /dev/null"
     networks:
       - backend
+    volumes:
+      - sql_data:/var/opt/mssql
+    restart: unless-stopped
+
+  db-init:
+    image: mcr.microsoft.com/mssql-tools:latest
+    container_name: db-init
+    depends_on:
+      - sqlserver
+    entrypoint: /bin/bash
+    command: >
+      -c "
+        apt-get update && 
+        ACCEPT_EULA=Y apt-get install -y mssql-tools unixodbc-dev &&
+        export PATH=$PATH:/opt/mssql-tools/bin &&
+        for i in {1..30}; do
+          /opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P 'inseejam@123' -Q 'SELECT 1' && break
+          echo 'Waiting for SQL Server...'
+          sleep 1
+        done
+        /opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P 'inseejam@123' -i /init.sql
+      "
+    volumes:
+      - ./sql/init.sql:/init.sql:ro
+    networks:
+      - backend
+    restart: unless-stopped
 
 volumes:
-  sqlvolume:
+  sql_data:
 
 networks:
   backend:
