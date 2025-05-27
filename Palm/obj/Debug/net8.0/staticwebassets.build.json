@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "n6GcECz+0j2Xtq982vS8AFfnxRtWx9S4zFOSxKC1ydQ=",
+  "Hash": "LMXBwoJc0I7qJUNh9dxBpDUvXgXtUnEz8cK3LeWcGbQ=",
   "Source": "Palm",
   "BasePath": "_content/Palm",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

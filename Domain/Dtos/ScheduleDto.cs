@@ -8,6 +8,7 @@ namespace Domain.Dtos
 {
     public class schedualeDto
     {
+        // public int Id { get; set; }
         public string TenantId { get; set; }
         public string CustomerId { get; set; }
         public string? Name { get; set; }

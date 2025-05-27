@@ -26,6 +26,7 @@ namespace Services
             var schedules = await _scheduleRepository.GetAllAsync();
             return schedules.Select(s => new schedualeDto
             {
+                // Id=s.Id,
                 TenantId = s.TenantId,
                 CustomerId= s.CustomerId,
                 Name = s.Name,
@@ -138,6 +139,14 @@ namespace Services
         {
             return await _scheduleRepository.GetSchedulesByTenantIdAsync(tenantId);
         }
+
+
+
+
+
+
+
+        
         public async Task<bool> DeleteAsync(int id)
         {
             var schedule = await _scheduleRepository.GetByIdAsync(id);

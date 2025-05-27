@@ -5764,42 +5764,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ascom\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/mustafa/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyScheduler\\Palm\\Palm.csproj",
+      "projectUniqueName": "/home/mustafa/projects/MyScheduler/Palm/Palm.csproj",
       "projectName": "Palm",
-      "projectPath": "D:\\MyScheduler\\Palm\\Palm.csproj",
-      "packagesPath": "C:\\Users\\ascom\\.nuget\\packages\\",
-      "outputPath": "D:\\MyScheduler\\Palm\\obj\\",
+      "projectPath": "/home/mustafa/projects/MyScheduler/Palm/Palm.csproj",
+      "packagesPath": "/home/mustafa/.nuget/packages/",
+      "outputPath": "/home/mustafa/projects/MyScheduler/Palm/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ascom\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/mustafa/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\MyScheduler\\Persistance\\Persistance.csproj": {
-              "projectPath": "D:\\MyScheduler\\Persistance\\Persistance.csproj"
+            "/home/mustafa/projects/MyScheduler/Persistance/Persistance.csproj": {
+              "projectPath": "/home/mustafa/projects/MyScheduler/Persistance/Persistance.csproj"
             },
-            "D:\\MyScheduler\\Services\\Services.csproj": {
-              "projectPath": "D:\\MyScheduler\\Services\\Services.csproj"
+            "/home/mustafa/projects/MyScheduler/Services/Services.csproj": {
+              "projectPath": "/home/mustafa/projects/MyScheduler/Services/Services.csproj"
             }
           }
         }
@@ -5813,8 +5806,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -5854,7 +5846,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
