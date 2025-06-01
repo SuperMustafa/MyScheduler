@@ -1,0 +1,65 @@
+# version: '3.8'
+
+services:
+  palm:
+    build:
+      context: .
+      dockerfile: Palm/Dockerfile
+      network: host
+    ports:
+      - "5000:80"
+    depends_on:
+      - sqlserver
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=Scheduler_db;User Id=mu_user;Password=inseejam@123;TrustServerCertificate=True;
+    networks:
+      - backend
+    restart: unless-stopped
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: "MyStrong@Pass123"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Express"
+    ports:
+      - "1433:1433"
+    networks:
+      - backend
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    restart: unless-stopped
+
+  db-init:
+    image: mcr.microsoft.com/mssql-tools:latest
+    depends_on:
+      - sqlserver
+    command: >
+      bash -c "
+        echo 'Waiting for SQL Server to start...' &&
+        sleep 30 &&
+        for i in {1..30}; do
+          /opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P 'MyStrong@Pass123' -Q 'SELECT 1' > /dev/null 2>&1 && break
+          echo 'SQL Server not ready, waiting...'
+          sleep 5
+        done &&
+        echo 'Running database initialization...' &&
+        /opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P 'MyStrong@Pass123' -d master -i /init.sql &&
+        echo 'Database initialization completed'
+      "
+    volumes:
+      - ./sql/init.sql:/init.sql:ro
+    networks:
+      - backend
+    restart: unless-stopped
+
+
+
+volumes:
+  sqlserver_data:
+
+networks:
+  backend:
+    driver: bridge

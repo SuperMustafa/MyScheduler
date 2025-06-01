@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyScheduler\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1988C3AD-F38C-49F0-97D0-132BAE7EF07B}|Palm\\Palm.csproj|d:\\myscheduler\\palm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1988C3AD-F38C-49F0-97D0-132BAE7EF07B}|Palm\\Palm.csproj|solutionrelative:palm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A01F200-0399-4146-82C6-40FC0EAD6BD5}|Domain\\Domain.csproj|d:\\myscheduler\\domain\\dtos\\scheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A01F200-0399-4146-82C6-40FC0EAD6BD5}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\scheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A01F200-0399-4146-82C6-40FC0EAD6BD5}|Domain\\Domain.csproj|d:\\myscheduler\\domain\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A01F200-0399-4146-82C6-40FC0EAD6BD5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{074330C5-93F9-42B0-BCB2-94E364D016EF}|Persistance\\Persistance.csproj|d:\\myscheduler\\persistance\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{074330C5-93F9-42B0-BCB2-94E364D016EF}|Persistance\\Persistance.csproj|solutionrelative:persistance\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1988C3AD-F38C-49F0-97D0-132BAE7EF07B}|Palm\\Palm.csproj|d:\\myscheduler\\palm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1988C3AD-F38C-49F0-97D0-132BAE7EF07B}|Palm\\Palm.csproj|solutionrelative:palm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1988C3AD-F38C-49F0-97D0-132BAE7EF07B}|Palm\\Palm.csproj|d:\\myscheduler\\palm\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1988C3AD-F38C-49F0-97D0-132BAE7EF07B}|Palm\\Palm.csproj|solutionrelative:palm\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{074330C5-93F9-42B0-BCB2-94E364D016EF}|Persistance\\Persistance.csproj|d:\\myscheduler\\persistance\\repositories\\schedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{074330C5-93F9-42B0-BCB2-94E364D016EF}|Persistance\\Persistance.csproj|solutionrelative:persistance\\repositories\\schedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73FB35D-51D0-4EFD-AB76-75D5C6E402FE}|Services\\Services.csproj|d:\\myscheduler\\services\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73FB35D-51D0-4EFD-AB76-75D5C6E402FE}|Services\\Services.csproj|solutionrelative:services\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\MyScheduler\\Persistance\\Migrations\\20250521153905_add_cutomerId_and_tenantId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Persistance\\Migrations\\20250521153905_add_cutomerId_and_tenantId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{074330C5-93F9-42B0-BCB2-94E364D016EF}|Persistance\\Persistance.csproj|d:\\myscheduler\\persistance\\repositories\\ischedulerepsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{074330C5-93F9-42B0-BCB2-94E364D016EF}|Persistance\\Persistance.csproj|solutionrelative:persistance\\repositories\\ischedulerepsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73FB35D-51D0-4EFD-AB76-75D5C6E402FE}|Services\\Services.csproj|d:\\myscheduler\\services\\executorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73FB35D-51D0-4EFD-AB76-75D5C6E402FE}|Services\\Services.csproj|solutionrelative:services\\executorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73FB35D-51D0-4EFD-AB76-75D5C6E402FE}|Services\\Services.csproj|d:\\myscheduler\\services\\scheduleexecutionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73FB35D-51D0-4EFD-AB76-75D5C6E402FE}|Services\\Services.csproj|solutionrelative:services\\scheduleexecutionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A01F200-0399-4146-82C6-40FC0EAD6BD5}|Domain\\Domain.csproj|d:\\myscheduler\\domain\\models\\devicesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A01F200-0399-4146-82C6-40FC0EAD6BD5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\devicesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73FB35D-51D0-4EFD-AB76-75D5C6E402FE}|Services\\Services.csproj|d:\\myscheduler\\services\\iexecutorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73FB35D-51D0-4EFD-AB76-75D5C6E402FE}|Services\\Services.csproj|solutionrelative:services\\iexecutorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{074330C5-93F9-42B0-BCB2-94E364D016EF}|Persistance\\Persistance.csproj|d:\\myscheduler\\persistance\\migrations\\20250523014643_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{074330C5-93F9-42B0-BCB2-94E364D016EF}|Persistance\\Persistance.csproj|solutionrelative:persistance\\migrations\\20250523014643_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyScheduler\\Palm\\Program.cs",
+              "RelativeDocumentMoniker": "Palm\\Program.cs",
+              "ToolTip": "D:\\MyScheduler\\Palm\\Program.cs",
+              "RelativeToolTip": "Palm\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:02:44.022Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250523014643_InitialCreate.cs",
+              "DocumentMoniker": "D:\\MyScheduler\\Persistance\\Migrations\\20250523014643_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Persistance\\Migrations\\20250523014643_InitialCreate.cs",
+              "ToolTip": "D:\\MyScheduler\\Persistance\\Migrations\\20250523014643_InitialCreate.cs",
+              "RelativeToolTip": "Persistance\\Migrations\\20250523014643_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T01:46:43.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\MyScheduler\\Persistance\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Persistance\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\MyScheduler\\Persistance\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Persistance\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T00:52:42.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MyScheduler\\Palm\\appsettings.json",
+              "RelativeDocumentMoniker": "Palm\\appsettings.json",
+              "ToolTip": "D:\\MyScheduler\\Palm\\appsettings.json",
+              "RelativeToolTip": "Palm\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T23:34:46.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "D:\\MyScheduler\\Domain\\Models\\Schedule.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Schedule.cs",
+              "ToolTip": "D:\\MyScheduler\\Domain\\Models\\Schedule.cs",
+              "RelativeToolTip": "Domain\\Models\\Schedule.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:35:43.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IScheduleService.cs",
+              "DocumentMoniker": "D:\\MyScheduler\\Services\\IScheduleService.cs",
+              "RelativeDocumentMoniker": "Services\\IScheduleService.cs",
+              "ToolTip": "D:\\MyScheduler\\Services\\IScheduleService.cs",
+              "RelativeToolTip": "Services\\IScheduleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:18:02.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScheduleDto.cs",
+              "DocumentMoniker": "D:\\MyScheduler\\Domain\\Dtos\\ScheduleDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Dtos\\ScheduleDto.cs",
+              "ToolTip": "D:\\MyScheduler\\Domain\\Dtos\\ScheduleDto.cs",
+              "RelativeToolTip": "Domain\\Dtos\\ScheduleDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:12:20.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScheduleRepository.cs",
+              "DocumentMoniker": "D:\\MyScheduler\\Persistance\\Repositories\\ScheduleRepository.cs",
+              "RelativeDocumentMoniker": "Persistance\\Repositories\\ScheduleRepository.cs",
+              "ToolTip": "D:\\MyScheduler\\Persistance\\Repositories\\ScheduleRepository.cs",
+              "RelativeToolTip": "Persistance\\Repositories\\ScheduleRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAIBJwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:13:57.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "D:\\MyScheduler\\Palm\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "Palm\\Controllers\\ScheduleController.cs",
+              "ToolTip": "D:\\MyScheduler\\Palm\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "Palm\\Controllers\\ScheduleController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAIBJwAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:05:18.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250521153905_add_cutomerId_and_tenantId.cs",
+              "DocumentMoniker": "D:\\MyScheduler\\Persistance\\Migrations\\20250521153905_add_cutomerId_and_tenantId.cs",
+              "RelativeDocumentMoniker": "Persistance\\Migrations\\20250521153905_add_cutomerId_and_tenantId.cs",
+              "ToolTip": "D:\\MyScheduler\\Persistance\\Migrations\\20250521153905_add_cutomerId_and_tenantId.cs",
+              "RelativeToolTip": "Persistance\\Migrations\\20250521153905_add_cutomerId_and_tenantId.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:39:05.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IScheduleRepsitory.cs",
+              "DocumentMoniker": "D:\\MyScheduler\\Persistance\\Repositories\\IScheduleRepsitory.cs",
+              "RelativeDocumentMoniker": "Persistance\\Repositories\\IScheduleRepsitory.cs",
+              "ToolTip": "D:\\MyScheduler\\Persistance\\Repositories\\IScheduleRepsitory.cs",
+              "RelativeToolTip": "Persistance\\Repositories\\IScheduleRepsitory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:13:28.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeviceSetting.cs",
+              "DocumentMoniker": "D:\\MyScheduler\\Domain\\Models\\DeviceSetting.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\DeviceSetting.cs",
+              "ToolTip": "D:\\MyScheduler\\Domain\\Models\\DeviceSetting.cs",
+              "RelativeToolTip": "Domain\\Models\\DeviceSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:38:15.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExecutorService.cs",
+              "DocumentMoniker": "D:\\MyScheduler\\Services\\ExecutorService.cs",
+              "RelativeDocumentMoniker": "Services\\ExecutorService.cs",
+              "ToolTip": "D:\\MyScheduler\\Services\\ExecutorService.cs",
+              "RelativeToolTip": "Services\\ExecutorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:28:14.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ScheduleExecutionService.cs",
+              "DocumentMoniker": "D:\\MyScheduler\\Services\\ScheduleExecutionService.cs",
+              "RelativeDocumentMoniker": "Services\\ScheduleExecutionService.cs",
+              "ToolTip": "D:\\MyScheduler\\Services\\ScheduleExecutionService.cs",
+              "RelativeToolTip": "Services\\ScheduleExecutionService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAIBJwFQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:06:10.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IExecutorService.cs",
+              "DocumentMoniker": "D:\\MyScheduler\\Services\\IExecutorService.cs",
+              "RelativeDocumentMoniker": "Services\\IExecutorService.cs",
+              "ToolTip": "D:\\MyScheduler\\Services\\IExecutorService.cs",
+              "RelativeToolTip": "Services\\IExecutorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:07:35.087Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
